@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:strokeColor="@color/darkgrey"
+    app:strokeWidth="1dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp">
+
+    <View
+        android:id="@+id/diffId"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="end"
+        android:layout_margin="10dp"
+        android:background="@drawable/mark"
+        >
+    </View>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/MyTextid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="Your Activity" />
+
+        <TextView
+            android:id="@+id/amountid"
+            android:layout_width="wrap_content"
+            android:textSize="16dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/red"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/MyTextid"
+            android:text="get amount" />
+
+        <TextView
+            android:id="@+id/dateid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="date"
+            android:textColor="@color/purple_700"
+            android:layout_below="@+id/amountid"
+            android:layout_marginTop="5dp">
+
+        </TextView>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/newbtn2id"
+        android:layout_width="35dp"
+        android:layout_height="25dp"
+        app:srcCompat="@drawable/ic_baseline_keyboard_arrow_right_24"
+        android:layout_gravity="end|center"
+        android:layout_marginRight="5dp"/>
+
+
+</com.google.android.material.card.MaterialCardView>

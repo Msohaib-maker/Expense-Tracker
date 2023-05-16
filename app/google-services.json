@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "825964957173",
+    "project_id": "practiceexptracker",
+    "storage_bucket": "practiceexptracker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:825964957173:android:af27d6b1b5ac4c862ea4bc",
+        "android_client_info": {
+          "package_name": "com.example.practiceexptracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "825964957173-q06bkdqbleu4sn3sn7kds4c7gkadpk0a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpFT17Rn61MhR3O_28nU7EjznuAoV_gPc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "825964957173-q06bkdqbleu4sn3sn7kds4c7gkadpk0a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
